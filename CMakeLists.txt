@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.25)
+project(toy_sender)
+set(CMAKE_CXX_STANDARD 20)
+add_executable(toy_sender toysender.m.cpp)
+include_directories(./)
